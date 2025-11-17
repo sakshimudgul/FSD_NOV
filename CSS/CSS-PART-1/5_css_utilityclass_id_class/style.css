@@ -1,0 +1,73 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+ body{
+    font-family:"Oswald", sans-serif;
+} 
+
+/* id selector --> #tag */
+ #main-heading{
+    color:tomato;
+} 
+
+/* class selector --> . tag */
+ .main-header{
+    background-color:burlywood;
+}
+
+ /* p{ 
+    color:blueviolet;
+    font-weight: 400;
+}   */
+
+/* 
+Developers
+id vs class
+id-->less used-->Dont use same id twice on one page.
+class-->more used--> classes can be used multiple times.
+
+web theme:
+utility classes(pre-made classes for multi use) */
+
+ .text-red{
+    color:red;
+}
+
+.text-green{
+
+color:green;
+}
+
+.bg-grey{
+    background-color:rgb(226, 216, 132);
+}
+
+.bg-dark{
+    background-color:rgb(173, 105, 17);
+} 
+
+/* css exercise 1 */
+
+.main-header{
+    background-color:rgb(211, 194, 40);
+
+}
+
+ .blog-section{
+    background-color:rgb(208, 176, 138);
+
+} 
+
+ #blog-heading1{
+    color:purple;
+} 
+
+ #blog-heading2{
+    color:rgb(217, 14, 156);
+} 
+
+.blog-content{
+    color:rgb(237, 90, 4);
+    font-weight:700:
+}
+

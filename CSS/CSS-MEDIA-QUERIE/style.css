@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+/* ################################## Default css reset ########################################## */
+/* ################################## HTML  ELEMENT STYLING ######################################## */
+
+html{
+    /* font: size 10px; */
+    /* 16px ----> 100% */
+    /* 10px ---->(100/16)*100 */
+    font-size:62.5%; 
+}
+
+body{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: lightcyan;
+}
+
+h1{
+    font-size:10rem;
+}
+
+p{
+    font-size:5rem;
+}
+
+
+
+/* -------------------------------- Media Queries -------------------------*/
+
+/* as soon as width gets lower than 500px font size changes */
+
+/* break  point ----->max-width:768px is called */
+@media(max-width:500px){
+    html{
+        font-size:5px;
+    }
+    body{
+        background:lightcoral;
+    }
+}
+
+@media  (min-width:769px)and(max-width:1024px){
+    body:{
+       background: pink;
+       
+    }
+    
+}
+
+@media  (min-width:1025px)and(max-width:1200px){
+    body:{
+       background:lightsalmon;
+       
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+/* screen size respnonsive design media */
+

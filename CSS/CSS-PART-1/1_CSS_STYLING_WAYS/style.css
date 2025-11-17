@@ -1,3 +1,10 @@
-.para2 {
+.para1{
   color: red;
+}
+p{
+  color:orange;
+}
+
+#para2 {
+  color: blue;
 }

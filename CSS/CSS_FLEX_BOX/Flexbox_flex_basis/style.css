@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+body{
+    font-family: "Oswald", sans-serif;
+
+}
+/* flex items property */
+/* Flex basis is somewhat similar to width */
+.box-wrapper{
+    border:10px solid black;
+    display: flex;
+    flex-direction:row;
+    /* flex-direction:column;
+    flex-wrap:wrap; */
+
+   
+}
+
+.box{
+    border:1px solid #666;
+    flex-basis:500px;
+    /* width:500px;
+    height:400px; */
+
+     /* its width with respect to main axis */
+}
+
+.box-1{
+    background:lightblue;
+}
+
+.box-2{
+    background:lightcoral;
+}
+
+.box-3{
+    background:lightcyan;
+}
+
+.box-4{
+    background:lightgoldenrodyellow;
+}
+
+.box-5{
+    background:lightsalmon;
+} 

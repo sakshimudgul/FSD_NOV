@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+body{
+    font-family: "Oswald", sans-serif;
+
+}
+.box-wrapper{
+    border:10px solid black;
+    display: flex;
+    /* flex-direction:row; */
+
+    /* 
+    main axis start from left to end to
+    right of flexbox container
+     */
+    /* flex-direction:row-reverse; */
+
+    /* 
+         main axis start from right to end to
+    left of flexbox container
+    */
+    /* 
+      main axis start from top to end to
+    buttom of flexbox container
+    */
+
+     /* flex-direction:column-reverse;  */
+       /* 
+      main axis start from buttom to end to
+    top of flexbox container
+    */
+
+
+}
+.box{
+    border:1px solid #666;
+
+}
+
+.box-1{
+    background:lightblue;
+}
+
+.box-2{
+    background:lightcoral;
+}
+
+.box-3{
+    background:lightcyan;
+}
+
+.box-4{
+    background:lightgoldenrodyellow;
+}
+
+.box-5{
+    background:lightsalmon;
+} 

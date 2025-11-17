@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+ body{
+    font-family:"Oswald", sans-serif;
+} 
+
+/* universal selector '*' */
+*{
+    color:plum;
+}
+
+header{
+    background-color:bisque;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+section.my-articles{
+    background-color:#f2e9e9
+}
+
+header p{
+    color:blueviolet;
+}
+
+li a{
+    font-weight:700;
+    font-family:Arial, Helvetica, sans-serif;
+    color:blue;
+}
+
+
+/* // it all changes h2 inside the section */
+
+/* 
+ section.my-articles  h2{
+    font-family:'sans-serif';
+    color:green;
+} */
+
+/* changes direct child */
+section.my-articles > h2{
+    font-family:'sans-serif';
+    color:green;
+}
+
+/* changes paragraph directly after h2 anywhere */
+/* h2+p{
+    color:orangered;
+}  */
+
+/* changes paragraph after ul anywhere */
+ul+p{
+    color:darkmagenta;
+}
+
+/* changes paragraph directly h2 where section is my-articles */
+section.my-articles h2+p{
+color:orangered;
+}
