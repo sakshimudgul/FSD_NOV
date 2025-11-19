@@ -1,9 +1,9 @@
-############## Flex box #################
+###### Flex box #################
 
 <--------------------- flexbox_intro : ------------------------------>
  ## Flexbox (Flexible Box Layout) is a powerful CSS layout model designed to distribute space and align items efficiently within a container—even when their sizes are dynamic or unknown. ###
 
-1.Flexbox_align_self :-
+###### flexbox_align_self  ###################
 The align-self property in CSS allows individual flex or grid items to override the container’s alignment settings.
 
 
@@ -19,7 +19,7 @@ stretch : stretches the item to fill the container
 }
 */
 
-2.Flexbox_aligncontent :-
+###### Flexbox_aligncontent ###################
 The align-content property in Flexbox controls how multiple lines of flex items are spaced along the cross axis (usually vertical). It only applies when flex-wrap is set to wrap or wrap-reverse.
 
 
@@ -39,7 +39,7 @@ stretch : stretches lines to fill the container
   align-content: space-between;
 }
 
-3.flexbox-alignitems :-
+##### flexbox-alignitems ####################
 The align-items property in Flexbox aligns flex items along the cross axis (usually vertical) within a single line. It affects how items are positioned relative to each other inside the flex container
 
 flex-start : items align to the start of the cross axis
@@ -54,7 +54,7 @@ stretch : Default - items stretch to fill the container cross axis
   align-items: center; 
 }
 
-4.Flexbox-direction : 
+###### Flexbox-direction ###########
 The flex-direction property in CSS defines the main axis of a flex container, determining how flex items are laid out—either horizontally or vertically.
 
 row : default - items are laid out horizontally from left ot right
@@ -69,7 +69,7 @@ column-reverse : items are laid out vertically from  buttom to top
   flex-direction: row; /* Default */
 }
 
-5. flexbox_flex_basis :
+###### flexbox_flex_basis #################
 The flex-basis property in Flexbox sets the initial size of a flex item along the main axis before any space is distributed.
 
 auto : uses the item content size or width / height if set
@@ -81,7 +81,7 @@ px,% : sets a fixed or relative size(e.g : 100px, 50%)
   flex-basis: 200px; 
 }
 
-6.flexbox_flexgrow :
+##### flexbox_flexgrow ##############
 The flex-grow property in CSS Flexbox defines how much a flex item should grow relative to the rest of the items when extra space is available in the container.
 
 0 : Default . item will not grow beyound its original size
@@ -94,7 +94,7 @@ The flex-grow property in CSS Flexbox defines how much a flex item should grow r
   flex-grow: 2; 
 }
 
-7.Flexbox_flexshrink_flex  :
+##### Flexbox_flexshrink_flex  ###############
 The flex-shrink property in Flexbox defines how much a flex item should shrink relative to others when there’s not enough space. The flex shorthand combines flex-grow, flex-shrink, and flex-basis into one line for convenience
 
 <-------- Example --------->
@@ -107,7 +107,7 @@ This means:
 - Grow equally (flex-grow: 1)
 - Shrink twice as fast as default (flex-shrink: 2)
 
-8.flexbox_justifycontent :
+#### flexbox_justifycontent ###############
 The justify-content property in Flexbox controls how flex items are aligned along the main axis (horizontal by default). It distributes extra space between and around items inside a flex container
 
 flex-start : items align to the start of main axis
@@ -123,7 +123,7 @@ space-evenly : items have equal space between and around them
   justify-content: center; 
 }
 
-9. flexbox_order :
+###### flexbox_order ###################
 The order property in Flexbox lets you change the visual order of flex items without altering the HTML structure. Lower values appear first, higher values later
 
 order:1 -->2nd
@@ -135,7 +135,7 @@ order:2 -->3rd
   order: 2; 
 }
 
-9.flexbox_wrap :
+###### flexbox_wrap ###############
 The  property in Flexbox controls whether flex items stay on a single line or wrap onto multiple lines when they overflow the container.
 
 nowrap : default . all items stay on one line

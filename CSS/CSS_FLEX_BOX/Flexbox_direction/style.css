@@ -24,12 +24,12 @@ body{
     buttom of flexbox container
     */
 
-     /* flex-direction:column-reverse;  */
+      /* flex-direction:column-reverse;  */
        /* 
       main axis start from buttom to end to
     top of flexbox container
     */
-
+        /* flex-direction:column; */
 
 }
 .box{

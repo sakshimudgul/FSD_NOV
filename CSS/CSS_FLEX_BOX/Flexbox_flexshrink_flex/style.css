@@ -28,12 +28,12 @@ body{
 
 .box-2{
     background:lightcoral;
-    /* flex-shrink:2; */
+     /* flex-shrink:2;  */
 }
 
 .box-3{
     background:lightcyan;
-    /* flex-shrink:3; */
+    /* flex-shrink:3;  */
 }
 
 .box-4{
