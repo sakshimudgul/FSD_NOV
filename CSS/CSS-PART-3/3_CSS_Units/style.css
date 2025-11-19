@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;900;800&display=swap");
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+h1{
+    font-size: 2em;
+    border: 2em solid lightblue;
+    padding:2em;
+    text-align: center;
+
+}
+
+/* Consider all h1 
+h1 ----> body parent
+h1 ----> div box1 parent --> body parent
+ */
+
+ .box1{
+    font-size:20px;
+ }
