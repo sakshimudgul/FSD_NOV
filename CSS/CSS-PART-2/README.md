@@ -24,5 +24,5 @@ Style an element when it gets focus
 
  <!-- Visited State --> Color Changed  -->
  <!-- Hover State -->  -->
- <!-- Link, Visited,Hover,Active  -->
+ <!-- Link, Visited, Hover, Active  -->
 <!-- Ctrl + Shift + Delete --> Clear Browsing data clear Cache -->

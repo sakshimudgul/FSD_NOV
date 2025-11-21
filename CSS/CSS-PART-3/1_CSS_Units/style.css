@@ -44,3 +44,19 @@
  */
 
  /*  2. Understanding Rem unit in css */
+
+
+
+ .box2{
+  border:2px solid red;
+  background-color: rgb(255, 0, 195);
+  width:50vw;
+  height:50vh;
+ }
+
+  .box3{
+  border:2px solid orange;
+  background-color: aqua;
+    width:50%;
+  height:50%;
+ }
