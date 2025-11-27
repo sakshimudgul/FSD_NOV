@@ -26,3 +26,38 @@ Style an element when it gets focus
  <!-- Hover State -->  -->
  <!-- Link, Visited, Hover, Active  -->
 <!-- Ctrl + Shift + Delete --> Clear Browsing data clear Cache -->
+
+#### nth child ############
+ <!-- 2n ----> even
+2n+1 ----> odd -->
+
+<!-- p:nth-of-type(2n){
+    color:blue;
+
+} -->
+
+<!-- p:nth-child(2n){
+        color:green;
+     } -->
+
+
+#### pseudo more @@@@@@@@@@@@@@
+ <!-- root ==> which is html -->
+ 
+<!-- specificity of root > html
+eg. class >element -->
+
+##### pseudo element ################
+<!-- cannot add beforeand after where there is no content in it
+like empty div p or h
+or after/before img,br,input
+
+all replaced elements :
+we cannot use it like inframe
+video
+embed
+img
+option
+audio
+object
+applet -->

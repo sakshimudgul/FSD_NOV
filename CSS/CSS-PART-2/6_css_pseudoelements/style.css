@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;900;800&display=swap");
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* p::first-line{
+    background-color: antiquewhite;
+    color:crimson;
+} */
+
+/* before and after pseudo element */
+
+.para1::before{
+    content:'Hello | Paragraph one.';
+    display:block;
+    color:purple;
+    border:2px solid black;
+    margin:5px;
+    padding:5px;
+}
+
+
+.para2::after{
+    content:'Hello | Welcone to website.';
+    display:block;
+    color:purple;
+    border:2px solid black;
+    margin:5px;
+    padding:5px;
+}
+/* cannot add beforeand after where there is no content in it
+like empty div p or h
+or after/before img,br,input
+
+all replaced elements :
+we cannot use it like inframe
+video
+embed
+img
+option
+audio
+object
+applet
+*/

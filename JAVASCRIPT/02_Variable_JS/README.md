@@ -1,1 +1,0 @@
-# Javascript  Variables Introduction

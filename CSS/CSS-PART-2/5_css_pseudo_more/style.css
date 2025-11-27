@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;900;800&display=swap");
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* :not(p){
+    color:red;
+} */
+
+body header :not(.fancy){
+        color:chocolate;
+}
+
+div:empty{
+    background-color:gray;
+    border:3px orange;
+    width:100px;
+    height:100px;
+}
+
+/* root ==> which is html */
+/* 
+specificity of root > html
+eg. class >element
+ */
+
+ :root{
+    background:pink;
+    color:blueviolet;
+ }
+
+ html{
+      background:rgb(220, 56, 84);
+    color:#33c308;
+ }
