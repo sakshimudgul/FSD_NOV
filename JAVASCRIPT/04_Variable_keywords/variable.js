@@ -45,7 +45,7 @@ pi1 = 3.15;
 console.log(pi);
 
 // var       let           const
-// declare    declsre       declare
+// declare    declare       declare
 // reassign   reassign      no reassign
 // redeclare   no redeclare   no declare
 
