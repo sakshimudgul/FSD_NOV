@@ -139,6 +139,56 @@ console.log(check2);
 // reduce
 
 let array =[4,3,2,6,5,8,9];
-const newArry
+const newArray2 = array.reduce((accumulator,currentvalue) => {
+       console.log("acc : ",accumulator);
+       console.log("curr  : ",currentvalue);
+       return accumulator + currentvalue;
+},10);
+
+console.log(newArray2);
+
+
+// accumulator , current value , return 
+// 10                4              14
+// 14                3               17
+// 17                 2              19
+// 19                6                25
+// 25                5                30
+// 30               8                 38
+// 38               9                 47
+
+
+
+// -------------------------------------------------------
+
+let x = 10.7;
+console.log(parseInt(x));
+let y = 10.525;
+console.log(Math.floor(y));
+console.log(Math.ceil(y));
+
+let str = "newTune";
+let str1 = "School";
+console.log(str.length);
+console.log(str.slice(0,2));
+console.log(str.charAt(4));
+console.log(str.charCodeAt(4));   //--- ASCII
+console.log(str.toUpperCase());
+console.log(str.toLowerCase());
+console.log(str.substring(2,5));
+console.log(str.replace("n","m"));
+console.log(str.replaceAll("o",""));
+console.log(str.concat(str1));
+
+str = " new   tune";
+console.log(str.trim("//s"));
+console.log(str.trimEnd());
+console.log(str.trimStart());
+str = "newton school";
+console.log(str.split(" "));
+str = "4";
+console.log(str.padStart(5,"0"));
+console.log(str.padEnd(5,"0"));
+
 
 
