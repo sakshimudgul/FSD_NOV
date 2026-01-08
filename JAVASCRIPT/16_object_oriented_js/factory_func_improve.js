@@ -189,3 +189,77 @@ const obj1 = {
      key1 : "value1",
     key2 : "value2",
 }
+
+// object literals
+// const obj2 = {};
+// // there is one more way to create empty objects.
+// obj2.key3 ="value3";
+
+// there is more way to create empty objects.
+
+const obj2 = Object.create(obj1);
+obj2.key3 ="value3";
+// obj2.key1 ="value4"   // when we comment this line it prints the key2 of obj1
+// obj2.key2 = 'unique';
+
+console.log(obj1.key1); // value1
+console.log(obj2.key3); // value3
+console.log(obj2.key1); //value1
+console.log(obj2.key2); // unique
+// if obj2.key2 = unique is commented
+console.log(obj2.key2);
+
+// solution using  Object.create();
+
+// we have achived solution lets see how
+
+// /when we create  empty object here with help of object here with help of Object.create();
+// /const obj2 = Object.create(obj1);
+//  and add obj1
+// while calling console.log(obj2.key2);
+// it is checking if obj2 has the key2 if yes it will return it with higest prority
+// but if not it will go to // const obj2 = Object.create(obj1);
+// obj1 mentioned and check if it has the key2 and return its value
+
+console.log(obj2);
+
+// _proto
+// official Ecmascript documentation
+// __proto__,[[prototype]]
+
+// prototype is different
+
+// ---------------------------------------------------------------------------
+
+// What is happining ?
+// obj2__proto__is obj1
+
+// ****************************************************************************************
+
+/*
+
+
+- proto is also a way to share behaviour and data between multiple objects access
+    using__proto__
+
+- All the objects have proto property.
+- proto gives access to the  prototype of the funnction using the object.
+
+syntax: (object._proto__)
+
+-It is used in the lookup chain to resolve methods , construction,etc
+- It is the property of the instance of that class.
+
+- It is also called dunder proto.
+- It is rarely used in javascript.
+
+-It  is introuced in ECMAScript 5.
+
+- proto property that is set to an object when it is created using a new keyword.
+All objects behaviour newly createdd have proto properties.
+
+*/
+
+console.log(obj2.__proto__); //proto properties
+// onj2 prto is set to obj1
+// so proto give acess to obj1
