@@ -21,7 +21,7 @@ Relative units
 
    #### 2. Understanding Rem unit in css ########
 
-   /* % is respect to parent here 10 so 200 % of 10 p will be 20px */
+   /* % is respect to root here 10 so 200 % of 10 p will be 20px */
 
  
   % are mostly used to give width and margin
