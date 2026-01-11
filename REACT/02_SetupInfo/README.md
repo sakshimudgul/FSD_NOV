@@ -6,7 +6,7 @@
 4.add project name
 5.select frame work - React
 6.select variant - javascript
-7.use rolldown vite - yes
+7.use rolldown vite - No
 8.Install npm & start now -yes
 
 <!-- After Installation of all folders or packages -->
