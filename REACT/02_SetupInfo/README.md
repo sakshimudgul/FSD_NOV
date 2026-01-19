@@ -1,7 +1,7 @@
 # React Setup Steps  Introduction
 
 1. create a folder
-2.open terminal  ($ npm create vite@latest) copy this link from chrome react vite webdite.
+2.open terminal  ( npm create vite@latest) copy this link from chrome react vite webdite.
 3.paste on terminal
 4.add project name
 5.select frame work - React
@@ -32,4 +32,4 @@ export default defineConfig({
 
 <!-- /Run code using -->
 
-npm run dev
+8.npm run dev
