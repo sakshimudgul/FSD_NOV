@@ -3,7 +3,7 @@ import Counter from "./Components/Counter";
 import StateArray from "./Components/StateArray";
 import StateObject from "./Components/StateObject";
 
-function App() {
+function App () {
   console.log("component rendered");
 
   /*
@@ -35,7 +35,7 @@ function App() {
    };
     
 
-  //  when state shanges here our component re-render and UI afterwards on handle change.
+  //  when state changes here our component re-render and UI afterwards on handle change.
 
   return (
     <div>
@@ -50,13 +50,14 @@ function App() {
       <br />
       <StateArray/>
     </div>
-  )
+  );
 
 
 
 
-  }
+  };
 
+  export default App;
 
 
 

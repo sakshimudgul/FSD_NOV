@@ -4,7 +4,7 @@ import Users from "./Components/users/Users";
 function Example1() {
   console.log("App rendered");
   const [users, setUsers] = useState([
-    { id: 1, firstName: "Yatin", lastName: "Chaudhari", age: 25 },
+    { id: 1, firstName: "Sakshi", lastName: "Mudgul", age: 21 },
     { id: 2, firstName: "Siddesh", lastName: "Tawade", age: 23 },
     { id: 3, firstName: "Siddhi", lastName: "xyz", age: 26 },
     { id: 4, firstName: "Pankaj", lastName: "zar", age: 24 },
