@@ -10,3 +10,9 @@ do{
 while(i<=num)
 
     console.log(total);
+
+
+    // The do...while loop executes the code block once before checking the condition.
+
+    // check codition after execution
+    

@@ -15,5 +15,5 @@ console.log(drink);
 
 let age1 = 19;
 let drinkit = age1 >=20 ? "Coffee" : "Milk";
-console.log(drinkit);
+console.log(drinkit);   // true    :  False;
 

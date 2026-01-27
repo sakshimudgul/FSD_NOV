@@ -1,28 +1,83 @@
-// Block scope vs function scope
+// Block Scope Vs Function Scope
 
+
+/*
 
 // let and const are block scoped
-// var is funnction scoped
+// var is function scoped
 
 {
-    // here let is block scopeed
-    let firstChar = "afafafafafafa";
-    //similar incase of const 
-    const name_var = "adadada" ;
+    // here let is block scoped
+    let firstChar = "afafafafa";
+    // similar in case of const
+    const  name_var = "adadad";
+   
 }
 
-// in case of let: variable
+// In Case of Let : variable
 // console.log(firstChar);
-// uncaught reference errer:firstChar is not defined
+// uncaught reference error :firstchar is not defined
 // cannot access firstChar as it is blockscoped
-// and deceleared as let
-// similarly
-// in case of const : variable
+// and declared as let
+// Similarly:
+// In Case of const : variable
 console.log(name_var);
-// uncaught referencr error : firstchar is not defined
-// cannot access firstchar as it is block scoped
+// uncaught reference error :firstchar is not defined
+// cannot access firstChar as it is block scoped
 // and declared as const
 
+*/
 
-// 0----------------------------------------------------------------
+// ------------------------------------------------------------
 
+/*
+
+{   
+    // Blocked Scoped
+    const firstname = "yatin";
+    console.log(firstname);
+}
+// Outer Global body scope
+const firstname = "siddesh";
+console.log(firstname);
+
+*/
+
+//-------------------------------------------------------------
+
+/*
+// In case of var
+
+{
+    var firstname = "Yatin";
+}
+
+{
+    console.log(firstname); 
+}
+console.log(firstname); 
+// can be accessed 
+// for var whole global scope is function
+// var is function scoped
+*/
+//--------------------------------------------------------------------
+// let firstname="abcd"; // case 2:
+//can be accessed through lexical scope by
+function myApp(){
+    if(true){
+    //    let firstname = "yatin"; // case 1: block scoped
+        console.log(firstname); // accessed 
+    }
+    console.log(firstname);
+    // case 1:
+    // cannot access yatin data as it is block scope
+    // and let and const are blocked scope
+    // if it was var we would be able to do so.
+    // Error as let is function scoped
+
+    // case 2:
+    // this access variable by lexical scope 
+    // from variable declared in global scope
+}
+
+myApp();

@@ -1,3 +1,6 @@
+// The while loop checks the condition first. If the condition is f
+// alse right from the start, the code inside the block will never run.
+
 // 0 se 9
 
  // dry don't repeat yourself

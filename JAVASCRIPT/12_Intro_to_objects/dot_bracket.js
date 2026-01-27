@@ -19,7 +19,7 @@ const person ={
 //   we need bracket notation and not dot 
 //    as not notation will give error due to spacein between
 
-// console.log(person.person hobbie); //invakid error
+// console.log(person.person hobbie); //invalid error
 // for option is brackett notation 
 
 // console.log(person["person hobbie"]);

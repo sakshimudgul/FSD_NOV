@@ -29,3 +29,9 @@ for(let user of users){
      console.log(user.gender);
      console.log(user);
 }
+
+// Feature   ,         for...in,                   for...of
+// Main Target,     Objects,                  Arrays / Iterables
+// What you get,    The Key (string),          The Value (any type)
+// Array Behavior,  "Returns indices (0, 1, 2)",  "Returns items (""a"", ""b"", ""c"")"
+// Prototypes,      Includes inherited properties,  Ignores them

@@ -46,7 +46,7 @@ console.log(res1);
 console.log(res2);
 
 // splice method
-// modigies original array
+// modifies original array
 // (start,deletecont,anythingtoadd)
 console.log(num);
 

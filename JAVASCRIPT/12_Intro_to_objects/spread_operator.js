@@ -107,7 +107,7 @@ const obj2 = {
 
 // --------------------------------------------------------
 
-// spreading array items with key value pairs
+// // spreading array items with key value pairs
 const newobj ={ ...["item1","item2"]};
 console.log(newobj);
 // here index will be key and value will be element at that index

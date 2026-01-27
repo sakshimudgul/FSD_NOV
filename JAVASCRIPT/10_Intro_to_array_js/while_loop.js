@@ -1,4 +1,14 @@
 // while loop in array
+
+
+
+
+// The while loop checks the condition first. If the condition is false right from the
+//  start, the code inside the block will never run.
+
+
+
+
 const fruits=["apple","mango","orange"];
 
 // let i=0;
