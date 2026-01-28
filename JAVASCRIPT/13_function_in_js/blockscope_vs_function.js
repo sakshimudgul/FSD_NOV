@@ -61,7 +61,10 @@ console.log(firstname);
 // var is function scoped
 */
 //--------------------------------------------------------------------
-// let firstname="abcd"; // case 2:
+
+/**
+
+let firstname="abcd"; // case 2:
 //can be accessed through lexical scope by
 function myApp(){
     if(true){
@@ -81,3 +84,52 @@ function myApp(){
 }
 
 myApp();
+
+ */
+
+// #############################################################################################
+
+
+//  $$$$$$$$$$$$$$  practice  $$$$$$$$$$$$$$$$$$$$$$
+
+
+
+// Blocked scope
+// key words --> let , const
+//  let and const not accesible outside the block
+{
+    let name = "sakshi";
+    console.log(name);// -->sakshi
+
+     const name1 = "chetan";
+    console.log(name1);   // --> chetan
+
+    var firstName = "Yatin";
+    console.log(firstName); //-->yatin
+}
+
+// console.log(name); // Not defined
+// console.log(name1); //Not defined
+console.log(firstName); // --> yatin
+
+// function scope
+
+// key word --> var
+
+// incase of funtion let ,var and const not accesible outside the function
+// let and const consider function cope as block scope
+
+function value(){
+    var firstName = "Yatin";
+    console.log(firstName); // --> yatin
+    let name = "sakshi";
+    console.log(name);  // -->sakshi  
+     const name1 = "chetan";
+     console.log(name1); // --> chetan
+
+}
+
+value();
+//  console.log(firstName); //Not defined
+//   console.log(name1);   //Not defined
+//   console.log(name);   //Not defined
