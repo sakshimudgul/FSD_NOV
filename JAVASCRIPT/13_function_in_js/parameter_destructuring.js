@@ -49,13 +49,13 @@ const person = {
 
 }
 
-function printpersonDetails(person){
+function printpersonDetails(...person){
     for(let data of person ){
         console.log(data);
     }
 }
 
-printpersonDetails(...person);
+printpersonDetails(person);
 
 /*
 

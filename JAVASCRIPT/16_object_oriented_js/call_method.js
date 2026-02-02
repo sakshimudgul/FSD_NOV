@@ -1,6 +1,6 @@
 // Call , Apply , Bind
 
-/*
+/*c:\Users\Sakshi\Downloads\JavaScript\JavaScript\20_Func_exe_context
 
 call() Method : The call() method calls the function directly and sets this to the
 first argument passed to the call method and if any other sequences of arguments

@@ -15,7 +15,7 @@ const myvar = "value1";
 function myapp(){
 
     function myfunc(){
-        // const myvar = "value58";
+        const myvar = "value58";
         console.log("inside myfunc",myvar);
     }
 
@@ -38,6 +38,7 @@ the lexical scope maintains in javascript
 
 // https://www.educative.io/answers/lexical-scope-in-javascript
 
+// const myvar = "value4";
 function myApp(){
 
     const myvar = "value1";
@@ -50,3 +51,5 @@ function myApp(){
     console.log(myvar);
     myfunc();
 }
+
+myApp();
