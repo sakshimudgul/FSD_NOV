@@ -35,3 +35,20 @@ function createUser(first_name,last_name,email,age,address){
 // creating new __proto__
 // console.log(createUser.prototype);
 
+createUser.prototype.about= function(){ 
+    return `${this.first_name} ${this.last_name} ${this.age}
+    years old.`;
+}
+
+createUser.prototype.is18=function(){
+    return this.age>=18;
+}
+
+createUser.prototype.sing=function(){
+        return 'abc def ghi jkl mnop qrst uvw xyz';
+}
+
+console.log(createUser.prototype);
+
+// _proto_ is reference
+// prototype is empty object where mwthods and properties can be added

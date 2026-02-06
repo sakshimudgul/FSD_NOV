@@ -1,5 +1,5 @@
 // Root Node --> with the help of getRootNode method
-// const rootNode -->document.grtRootNode();
+// const rootNode -->document.getRootNode();
 // console.log(rootNode);     //document Object
 // so, RootNode ---> document Object
 

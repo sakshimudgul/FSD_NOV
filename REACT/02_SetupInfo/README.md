@@ -33,3 +33,8 @@ export default defineConfig({
 <!-- /Run code using -->
 
 8.npm run dev
+
+9.for mobile view add --host in package.json file 
+scripts{
+"dev" : "vite --host",
+}

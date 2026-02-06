@@ -26,7 +26,7 @@ heading2.style.padding ="50px";
 
 */
 
-console.dir(window.document.head.tyle);
+console.dir(window.document.head.style);
 // Access a style
 // the style object can be accessed from the head section of the document,
 // or the specific HTML element(s)
